@@ -4,6 +4,34 @@ This repo holds the CDK stack for the account level AWS infrastructure that is n
 
 At the moment, this contains the AWS API Gateway instance.
 
+## Set Up Node
+
+This repo is configured with NVM. Run the `nvm use` command to configure the correct version of NodeJS for this repo.
+
+If you don't have that version installed, run `nvm install` first.
+
+## Install Dependencies
+
+Install NPM dependencies with the following command.
+
+```bash
+npm install
+```
+
+## Deploy
+
+You may need to bootstrap your environment. You only need to run this once.
+
+```bash
+npm run cdk bootstrap
+```
+
+You can then deploy changes with the follwoing command.
+
+```bash
+npm run cdk deploy
+```
+
 ## Useful commands
 
 This repo was created with the CDK CLI app template. Use the following commands to interact with the CDK.
