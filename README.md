@@ -4,6 +4,10 @@ This repo holds the CDK stack for the account level AWS infrastructure that is n
 
 At the moment, this contains the AWS API Gateway instance.
 
+## System Design
+
+![Infrastructure](./docs/gaggle-tech-infrastructure.drawio.svg)
+
 ## Set Up Node
 
 This repo is configured with NVM. Run the `nvm use` command to configure the correct version of NodeJS for this repo.
